@@ -1,56 +1,55 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Who is the pioneer of this group ?"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+[Dr LIU Junwei](https://research.polyu.edu.hk/en/persons/junwei-liu/) received the Bachelor of Engineering in Water Conservancy and Hydropower Engineering from Huazhong University of Science and Technology, China in 2012, and the Doctor of Philosophy in Power Electronics from Department of Electrical Engineering, The Hong Kong Polytechnic University in 2018.  He was a Research Fellow in Department of Electronic and Information Engineering, The Hong Kong Polytechnic University from March 2022 to January 2023. He worked as a Research Scientist at Centre for Advances in Reliability and Safety, Hong Kong from 2021 to 2022. Dr LIU was an awardee of the RGC Hong Kong PhD Fellowship Scheme (2013 to 2017).  His research interests include power electronics, circuits and systems, wireless power transfer, high power converters, transportation electrification, and renewable energy systems.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+***
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+# Academic qualification
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+-2008-2012 **<font color="#004a98">Bachelor of Engineering</font>**, Huazhong University of Science and Technology, WuHan, China.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+-2012-2018 **<font color="#a02741">Doctor of Philosophy</font>**, The Hong Kong Polytechnic University, Hong Kong, China SAR
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+***
 
-**Markdown generator**
+# Research interests
+Power Electronics, Wireless Power Transfer, Transportation Electrification, Renewable Energy Systems, Medium-Voltage, Gate Driver, WBG Device Application.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+# Publication
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+[1] F. Xu, J. Liu, and X. Zhang, “Analysis of Deadtime Effects and Optimum Deadtime Control for Bidirectional Inductive Power Transfer Converters,” IEEE Trans. Ind. Electron., vol. 71, no. 7, pp. 6929–6937, Jul. 2024, doi: 10.1109/TIE.2023.3308135.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+[2] F. Xu, J. Liu, and Z. Dong, “Minimum Backflow Power and ZVS Design for Dual-Active-Bridge DC–DC Converters,” IEEE Trans. Ind. Electron., vol. 70, no. 1, pp. 474–484, Jan. 2023, doi: 10.1109/TIE.2022.3156159.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+[3] C. S. Wong, J. Liu, L. Cao, and K. H. Loo, “A SWISS-Rectifier-Based Single-Stage Three-Phase Bidirectional AC–DC Inductive-Power-Transfer Converter for Vehicle-to-Grid Applications,” IEEE Trans. Power Electron., vol. 38, no. 3, pp. 4152–4166, Mar. 2023, doi: 10.1109/TPEL.2022.3220327.
+
+[4] C. Sun et al., “Generalized Multiphase-Shift Transient Modulation for Dual-Active-Bridge Series-Resonant Converter,” IEEE Trans. Power Electron., vol. 38, no. 7, pp. 8291–8309, Jul. 2023, doi: 10.1109/TPEL.2023.3267297.
+
+[5] J. Liu, F. Xu, C. Sun, and K. H. Loo, “A Compact Single-Phase AC–DC Wireless Power Transfer Converter With Active Power Factor Correction,” IEEE Trans. Ind. Electron., vol. 70, no. 4, pp. 3685–3696, Apr. 2023, doi: 10.1109/TIE.2022.3176297.
+
+[6] J. Liu, C. S. Wong, C. Sun, F. Xu, X. Jiang, and K. H. Loo, “Software-Reconfigurable Multistage Constant Current Wireless Battery Charging Based on Multiharmonic Power Transmission,” IEEE Trans. Power Electron., vol. 38, no. 4, pp. 5586–5597, Apr. 2023, doi: 10.1109/TPEL.2022.3232704.
+
+[7] J. Liu, C. S. Wong, Z. Li, X. Jiang, and K. H. Loo, “An Integrated Three-Phase AC–DC Wireless-Power-Transfer Converter With Active Power Factor Correction Using Three Transmitter Coils,” IEEE Trans. Power Electron., vol. 38, no. 6, pp. 7821–7835, Jun. 2023, doi: 10.1109/TPEL.2023.3238877.
+
+[8] C. Sun, X. Jiang, J. Liu, L. Cao, Y. Yang, and K. H. Loo, “A Unified Design Approach of Optimal Transient Single-Phase-Shift Modulation for Nonresonant Dual-Active-Bridge Converter With Complete Transient DC-Offset Elimination,” IEEE Trans. Power Electron., vol. 37, no. 11, pp. 13217–13237, Nov. 2022, doi: 10.1109/TPEL.2022.3182966.
+
+[9] J. Liu, G. Wang, G. Xu, J. Peng, and H. Jiang, “A Parameter Identification Approach With Primary-Side Measurement for DC–DC Wireless-Power-Transfer Converters With Different Resonant Tank Topologies,” IEEE Trans. Transp. Electrific., vol. 7, no. 3, pp. 1219–1235, Sep. 2021, doi: 10.1109/TTE.2020.3048026.
+
+[10] W. Xu, “Innovative control of bidirectional converters with wide load range in microgrid application,” 2020, Accessed: Dec. 12, 2024. [Online]. Available: https://theses.lib.polyu.edu.hk/handle/200/10423
+
+[11] J. Liu, W. Xu, K. W. Chan, M. Liu, X. Zhang, and N. H. L. Chan, “A Three-Phase Single-Stage AC–DC Wireless-Power-Transfer Converter With Power Factor Correction and Bus Voltage Control,” IEEE J. Emerg. Sel. Topics Power Electron., vol. 8, no. 2, pp. 1782–1800, Jun. 2020, doi: 10.1109/JESTPE.2019.2916258.
+
+[12] J. Liu, P. Li, G. Wang, Y. Zha, J. Peng, and G. Xu, “A Multitasking Electric Power Dispatch Approach With Multi-Objective Multifactorial Optimization Algorithm,” IEEE Access, vol. 8, pp. 155902–155911, 2020, doi: 10.1109/ACCESS.2020.3018484.
+
+[13] J. Liu, K. W. Chan, C. Y. Chung, N. H. L. Chan, M. Liu, and W. Xu, “Single-Stage Wireless-Power-Transfer Resonant Converter With Boost Bridgeless Power-Factor-Correction Rectifier,” IEEE Trans. Ind. Electron., vol. 65, no. 3, pp. 2145–2155, Mar. 2018, doi: 10.1109/TIE.2017.2745471.
+
+[14] J. Liu, F. Xu, and K. H. Loo, “A Soft-Switched Power-Factor-Corrected Single-Phase Bidirectional AC–DC Wireless Power Transfer Converter With an Integrated Power Stage”.

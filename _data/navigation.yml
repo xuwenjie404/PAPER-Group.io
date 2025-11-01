@@ -31,3 +31,9 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
+    
+  - title: "Project"
+    url: /project/
+
+  - title: "Memeber"
+    url: /member/   
