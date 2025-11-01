@@ -1,6 +1,21 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
+<style>
+/* 将作者头像改为方形（优先级高，避免被主题默认样式覆盖） */
+.author-profile .avatar img,
+.avatar img,
+img.author-avatar,
+img.avatar,
+img[src*="LIU junwei 022.jpg"] {
+  border-radius: 0 !important;   /* 去掉圆角 */
+  display: block;
+  width: 100%;                   /* 根据容器调整，如需固定大小可改为 e.g. width: 120px; height: 120px; */
+  height: auto;
+  object-fit: cover;             /* 保持裁切填充容器 */
+}
+</style>
+
 
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>

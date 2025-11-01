@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "PolyU PAPER Group"
+title                    : "PAPER Group"
 title_separator          : "-"
 name                     : PolyU Group 
 description              : Leaded by Dr. LIU Junwei   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,10 +23,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "LIU junwei 022.jpg" # filename of avatar image placed in /images/ for author profile
   name             : "Liu Junwei"
   pronouns         : # example: "she/her"  
-  bio              : "a sentence to decipt Dr.Liu"
+  bio              : "Nice to meet you here ！"
   location         : "Hong Kong"
   employer         : "PolyU"
   uri              : # URL
