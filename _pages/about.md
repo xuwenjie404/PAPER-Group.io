@@ -14,9 +14,9 @@ redirect_from:
 
 # Academic qualification
 
--2008-2012 **<font color="#004a98">Bachelor of Engineering</font>**, Huazhong University of Science and Technology, WuHan, China.
+2008-2012 **<font color="#004a98">Bachelor of Engineering</font>**, Huazhong University of Science and Technology, WuHan, China.
 
--2012-2018 **<font color="#a02741">Doctor of Philosophy</font>**, The Hong Kong Polytechnic University, Hong Kong, China SAR
+2012-2018 **<font color="#a02741">Doctor of Philosophy</font>**, The Hong Kong Polytechnic University, Hong Kong, China SAR
 
 
 ***
